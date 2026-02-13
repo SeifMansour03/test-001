@@ -1,6 +1,7 @@
 import Header from "./layout/Header";
 import Navbar from "./layout/Navbar";
-
+import Main from "./layout/Main";
+import Footer from "./layout/Footer";
 
 
 export default function App () {
@@ -8,6 +9,8 @@ export default function App () {
     <>
     <Header/>
     <Navbar/>
+    <Main/>
+    <Footer/>
     </>
   )
 }
